@@ -1,0 +1,53 @@
+:root{
+  --main-color : #CECE2B;
+  --secondary-color : #3D464D;
+  --bg-root: #EEEEEE;
+  --bg-card: #FFFFFF;
+  --bg-elevated: #FAFAFA;
+  --text-primary: #111111;
+  --text-muted: #666666;
+  --border-color: #EEEEEE;
+}
+
+:root[data-theme="dark"]{
+  --main-color : #CECE2B ;
+  --secondary-color : #2A2F34 ;
+  --bg-root: #0F1113 !important;
+  --bg-card: #171A1E !important;
+  --bg-elevated: #1E2227 !important;
+  --text-primary: #F1F5F9 !important;
+  --text-muted: #9AA4AE !important;
+  --border-color: #242A31 !important;
+}
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+*{
+  font-family: "Tajawal", sans-serif;
+  transition: .5s;
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#root{
+  background: var(--bg-root);
+  color: var(--text-primary);
+}
+.flex-col{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div .btnweb:hover{
+    background: var(--main-color) !important;
+    color: var(--secondary-color) !important;
+}
+
+/* themable helpers */
+.card-bg{ background: var(--bg-card); }
+.elev-bg{ background: var(--bg-elevated); }
+.text-muted{ color: var(--text-muted) !important; }
+.border-soft{ border-color: var(--border-color) !important; }

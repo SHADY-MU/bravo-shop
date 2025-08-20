@@ -1,0 +1,35 @@
+.Resgister .btn {
+    background: var(--secondary-color) !important;
+    color: var(--main-color);
+}
+.Resgister input{
+    background: #a3a0a0;
+    color: black;
+}
+/* ----------------------- */
+.Login .btn {
+    background: var(--secondary-color) !important;
+    color: var(--main-color);
+}
+.Login input{
+    background: #a3a0a0;
+    color: black;
+}
+
+/* ---common--- */
+.Login > div , .Resgister > div{
+    background: #c6c5c5;
+}
+.password-container{
+    position: relative;
+}
+.password-container *:nth-child(2){
+    position: absolute;
+    top: 50%;
+    right: -40px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: black;
+    width: 30px;
+    height: 30px;
+}

@@ -1,0 +1,30 @@
+.Products .buttons{
+    justify-content: space-between;
+}
+.Products .card .image{
+    overflow: hidden;
+}
+.Products .card .image:hover img{
+    transform: scale(1.3);
+}
+.Products .buttons button{
+    background: var(--main-color);
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+.Products .buttons button:hover{
+    color: black;
+}
+
+.changePagenation{
+    opacity: 0;
+    transform: skew(50deg , 20deg);
+}

@@ -1,0 +1,9 @@
+@media (max-width:780px) {
+    .Cart{
+        text-align: center;
+    }
+   .Cart .flex{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
