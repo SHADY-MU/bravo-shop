@@ -7,7 +7,7 @@
   "component": {
     "default": {
       "customTemplates":{
-        "component" : "src/Template/Template.jsx"
+        "component" : "src/Template"
       },
       "path": "src/page",
       "withStyle": true,
