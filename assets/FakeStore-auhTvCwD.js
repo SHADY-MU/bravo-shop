@@ -1,0 +1,1 @@
+import{r,d as a,j as t}from"./index-u9-H50Eg.js";import{P as s}from"./Products-GrbXkEvJ.js";import"./index-D9PbgRYh.js";const x=()=>{const{fakeStore:e,isLoadingFakeStore:o}=r.useContext(a);return t.jsx("div",{className:"FakeStore container",children:t.jsx(s,{data:e,Store:"Fake Store",loading:o})})};export{x as default};

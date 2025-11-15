@@ -1,1 +1,0 @@
-import{r as s,d as r,j as t}from"./index-tgfWPoiy.js";import{P as a}from"./Products-Vv2Jxcg1.js";import"./index-Duulzf-9.js";const n=()=>{const{allProducts:o}=s.useContext(r);return t.jsx("div",{className:"Shop container",children:t.jsx(a,{data:o,Store:"All Products"})})};export{n as default};
