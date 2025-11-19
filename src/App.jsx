@@ -25,7 +25,7 @@ export default function App() {
 
   const router = createBrowserRouter([
     {
-      path : "",
+      path : "bravo-shop",
       element: <Suspense fallback={<LottieHandler loadAnimation = {MainLoader}/>}> <Layout /> </Suspense>,
       children: [
         { index:true , element: <Suspense fallback={<LottieHandler loadAnimation = {SecondaryLoading}/>}> <Home /> </Suspense>},
