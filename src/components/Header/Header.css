@@ -1,28 +1,59 @@
-
 .Header .slider .men,
 .Header .slider .woman,
-.Header .slider .kids{
-    height: 50vh;
+.Header .slider .kids {
+    min-height: 50vh;
+    /* Changed from height to min-height */
     width: 100%;
 }
 
 .Header .slider .men {
-    background: linear-gradient(to left , rgba(0, 0, 0, 0.6) , rgba(0, 0, 0, 0.6)) , url(../../assets/Images/imgi_21_carousel-1-B1coVWNc-B1coVWNc.jpg)  ;
-    background-size: cover;        
-    background-position: center;   
-    background-repeat: no-repeat;  
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../assets/Images/imgi_21_carousel-1-B1coVWNc-B1coVWNc.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
 .Header .slider .woman {
-    background: linear-gradient(to left , rgba(0, 0, 0, 0.6) , rgba(0, 0, 0, 0.6)) , url(../../assets/Images/imgi_22_carousel-2--2x9VnkY--2x9VnkY.jpg)  ;
-    background-size: cover;        
-    background-position: center;   
-    background-repeat: no-repeat;  
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../assets/Images/imgi_22_carousel-2--2x9VnkY--2x9VnkY.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
 .Header .slider .kids {
-    background: linear-gradient(to left , rgba(0, 0, 0, 0.6) , rgba(0, 0, 0, 0.6)) , url(../../assets/Images/imgi_20_carousel-3-CkLdEAwA-CkLdEAwA.jpg)  ;
-    background-size: cover;        
-    background-position: center;   
-    background-repeat: no-repeat;  
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../assets/Images/imgi_20_carousel-3-CkLdEAwA-CkLdEAwA.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+
+    .Header .slider .men .h2,
+    .Header .slider .woman .h2,
+    .Header .slider .kids .h2,
+    .Header .slider .men h2,
+    .Header .slider .woman h2,
+    .Header .slider .kids h2 {
+        font-size: 1.2rem;
+        /* Reduced font size */
+    }
+
+    .Header .slider .men .fs-5,
+    .Header .slider .woman .fs-5,
+    .Header .slider .kids .fs-5 {
+        display: none;
+        /* Hide text on mobile */
+    }
+
+    .Header .slider .men,
+    .Header .slider .woman,
+    .Header .slider .kids {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+        justify-content: center;
+        text-align: center;
+    }
 }
 
 
@@ -30,37 +61,49 @@
 .swiper-button-prev {
     color: white !important;
 }
+
 .swiper-button-next::after,
 .swiper-button-prev::after {
     font-size: 30px !important;
 }
-.swiper-pagination-bullet{
+
+.swiper-pagination-bullet {
     background: var(--main-color) !important;
 }
-.swiper-pagination-bullet-active{
+
+.swiper-pagination-bullet-active {
     background: white !important;
 }
-.Header .offers{
-    height: 25vh;
+
+.Header .offers {
+    min-height: 25vh;
+    /* Changed from height */
 }
-.Header .offers b{
+
+.Header .offers b {
     font-size: 16px;
 }
-.Header .offer-1{
+
+.Header .offer-1 {
     background: url(../../assets/Images/imgi_23_offer-1-DP1lQ_lP-DP1lQ_lP.jpg);
-    background-size: cover;        
-    background-position: center;   
-    background-repeat: no-repeat;  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
-.Header .offer-2{
+
+.Header .offer-2 {
     background: url(../../assets/Images/imgi_24_offer-2-Cly2vTNH-Cly2vTNH.jpg);
-    background-size: cover;        
-    background-position: center;   
-    background-repeat: no-repeat;  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .Header .cons-nav.flex {
     justify-content: start;
-    height: 10vh;
+    min-height: 10vh;
+    /* Changed from fixed height */
+    height: auto;
     align-items: center;
+    padding: 10px 0;
+    /* Add padding for spacing */
 }

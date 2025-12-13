@@ -14,7 +14,7 @@ export default function Footer() {
       <div className="container-fluid px-5 text-center text-md-start">
         <div className="row text-center ">
 
-          <div className="col-lg-3 col-md-12  mx-auto mt-3">
+          <div className="col-lg-3 col-md-6  mx-auto mt-3">
             <div className='single mx-auto'>
               <h5 className="fw-bold h4 mb-4 fw-bold ">Get In touch</h5>
               <p className='mt-3 lh-lg px-2'>
@@ -23,7 +23,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="col-lg-3 col-md-12  mx-auto mt-3">
+          <div className="col-lg-3 col-md-6  mx-auto mt-3">
             <div className='single mx-auto'>
               <h5 className="text-uppercase mb-4 fw-bold h4">quick shop</h5>
               <p className='mt-2 fw-bold'><Link href="#" to={"/"} className="text-white text-decoration-none">Home</Link></p>
@@ -34,7 +34,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="col-lg-3 col-md-12  mx-auto mt-3">
+          <div className="col-lg-3 col-md-6  mx-auto mt-3">
             <div className='single mx-auto'>
               <h5 className="mb-4 fw-bold h4">Shop Media</h5>
               <p><Link href="#" className="text-white fs-5 mt-3 text-decoration-none"><FaFacebook/></Link></p>
@@ -45,7 +45,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="col-lg-3 col-md-12  mx-auto mt-3">
+          <div className="col-lg-3 col-md-6  mx-auto mt-3">
             <div className='single mx-auto'>
               <h5 className="text-uppercase mb-4 fw-bold h4"> NewSletter</h5>
               <p className='lh-lg my-4 fs-5'>
