@@ -1,0 +1,1 @@
+import{r as s,d as e,j as t}from"./index-C2leMN8C.js";import{P as m}from"./Products-TMQj7uyd.js";import"./index-CL6mWdtO.js";const d=()=>{const{dummyStore:o,isLoadingDummyStore:r}=s.useContext(e);return t.jsx("div",{className:"DummyStore container",children:t.jsx(m,{data:o,Store:"Dummy Store",loading:r})})};export{d as default};

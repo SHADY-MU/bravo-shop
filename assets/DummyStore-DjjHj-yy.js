@@ -1,1 +1,0 @@
-import{r as s,d as e,j as t}from"./index-2z99O-nK.js";import{P as m}from"./Products-DLxhytPr.js";import"./index-EJCINDfv.js";const d=()=>{const{dummyStore:o,isLoadingDummyStore:r}=s.useContext(e);return t.jsx("div",{className:"DummyStore container",children:t.jsx(m,{data:o,Store:"Dummy Store",loading:r})})};export{d as default};
